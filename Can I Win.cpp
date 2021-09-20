@@ -14,7 +14,7 @@ public:
                 }
             }
         }
-        return dp[player][mask]=0;
+        return dp[player][mask] = 0;
     }
     
     bool canIWin(int maxChoosableInteger, int desiredTotal) {
